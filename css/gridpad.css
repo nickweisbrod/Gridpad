@@ -1,3 +1,6 @@
+body{
+	background-color: #FFFFD1;
+}
 h1 {
 	font-family: sans-serif;
 }
@@ -14,8 +17,12 @@ button {
 	min-width: 80px;
 	min-height: 25px;
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 20px;
 	font-family: sans-serif;
+	background-color: #666699;
+}
+button:hover {
+	background-color: #A3A3C2;
 }
 
 #top_container {
