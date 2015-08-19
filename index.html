@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+	<meta charset="utf-8" />
+	<title> Javascript/jQuery Gridpad </title>
+	<link type="text/css" rel="stylesheet" href="css/gridpad.css" />
+</head>
+<body>
+	<div id="top_container">
+
+		<h1> Sketch Pad </h1>
+		<p> Move the mouse over a square to sketch. Click the different buttons to try out variations. </p>
+		<button id="regular" onclick="operate(1)"> Regular </button>
+		<button id="random" onclick="operate(2)"> Random </button>
+		<button id="trail" onclick="operate(3)"> Trail </button>
+		<button id="fade" onclick="operate(4)"> Fade </button>
+		<button id="clear" onclick="operate(5)"> Clear </button>
+	</div>
+	<div id="container"> 
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/gridpad.js"></script>
+</body>
+</html>

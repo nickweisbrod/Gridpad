@@ -1,0 +1,43 @@
+h1 {
+	font-family: sans-serif;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+div {
+	display: block;
+}
+
+button {
+	min-width: 80px;
+	min-height: 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+
+#top_container {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#container {
+	overflow: auto;
+	width: 650px;
+	height: 650px;
+	margin: auto;
+}
+
+.square {
+	background-color: black;
+	float: left;
+	border: 1px solid black; 
+}
+
+.new_row {
+	clear: both;
+}
