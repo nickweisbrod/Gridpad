@@ -1,5 +1,5 @@
 //Keep track of the size and coloring option. 
-var current_size = 16;
+var current_size = 24;
 var current_operation = 1;
 
 $(document).ready(function() {
